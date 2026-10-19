@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fcfaf6">
+  <meta name="description" content="หน้าสำหรับผู้ดูแลระบบเพื่อตรวจสอบรายการคำสั่งซื้อ MOLDMATE">
+  <title>จัดการคำสั่งซื้อ | MOLDMATE</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-logo" href="index.html" aria-label="MOLDMATE หน้าแรก">MOLD<span>MATE</span></a>
+      <nav class="site-nav" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-secondary" href="index.html">กลับหน้าเว็บไซต์</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--cream">
+      <div class="container">
+        <span class="eyebrow">MOLDMATE Administration</span>
+        <h1 class="section-title">จัดการคำสั่งซื้อ</h1>
+        <p class="section-description">หน้านี้ใช้ตรวจสอบรายการคำสั่งซื้อที่อ่านจากข้อมูล CSV ของ Google Sheets ซึ่งเผยแพร่ไว้</p>
+      </div>
+    </section>
+
+    <section class="section section--white admin-section">
+      <div class="container">
+        <div class="admin-warning notice" role="note">
+          <p><strong>ข้อควรระวัง:</strong> ตารางนี้อาจมีข้อมูลส่วนบุคคล เช่น ชื่อลูกค้าและช่องทางติดต่อ ควรจำกัดสิทธิ์เข้าถึงหน้านี้และแหล่งข้อมูล CSV ด้วยระบบที่เหมาะสม การซ่อนลิงก์เพียงอย่างเดียวไม่ใช่มาตรการรักษาความปลอดภัย</p>
+        </div>
+
+        <p id="ordersStatus" class="notice" role="status" aria-live="polite">กำลังโหลดรายการคำสั่งซื้อ...</p>
+
+        <div class="admin-table-wrap" role="region" aria-label="ตารางรายการคำสั่งซื้อ" tabindex="0">
+          <table id="ordersTable" class="admin-table">
+            <thead>
+              <tr>
+                <th scope="col">วันเวลา</th>
+                <th scope="col">ชื่อลูกค้า</th>
+                <th scope="col">เบอร์โทร / Line</th>
+                <th scope="col">รายการสินค้า</th>
+                <th scope="col">จำนวนเงินรวม</th>
+                <th scope="col">หมายเหตุ</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <a class="site-logo" href="index.html">MOLD<span>MATE</span></a>
+      <a href="index.html">กลับหน้าแรก</a>
+      <span>หน้าสำหรับผู้ดูแลระบบ</span>
+    </div>
+  </footer>
+</body>
+</html>

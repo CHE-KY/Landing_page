@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fcfaf6">
+  <meta name="description" content="เลือกชมผลิตภัณฑ์ MOLDMATE สำหรับดูแลปัญหาเชื้อราในบ้าน แบ่งตามพื้นที่ใช้งานและขนาดสินค้า">
+  <title>ผลิตภัณฑ์ MOLDMATE | สินค้าทั้งหมด</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-logo" href="index.html" aria-label="MOLDMATE หน้าแรก">MOLD<span>MATE</span></a>
+      <nav class="site-nav" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html" aria-current="page">สินค้าทั้งหมด</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-secondary" href="index.html">กลับหน้าแรก</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--cream product-page-intro">
+      <div class="container text-center">
+        <span class="eyebrow">MOLDMATE Collection</span>
+        <h1 class="section-title">ผลิตภัณฑ์ MOLDMATE</h1>
+        <p class="section-description">
+          เลือกผลิตภัณฑ์ดูแลปัญหาเชื้อราให้เหมาะกับพื้นที่ใช้งานของคุณ
+          ตรวจสอบรายละเอียดและความเหมาะสมของพื้นผิวตามฉลากก่อนใช้งาน
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--white product-section" aria-labelledby="product-list-heading">
+      <div class="container">
+        <div class="product-list-heading">
+          <div>
+            <span class="eyebrow">Browse Products</span>
+            <h2 id="product-list-heading" class="section-title">เลือกดูสินค้า</h2>
+          </div>
+          <a class="text-small" href="product.html">แสดงสินค้าทั้งหมด</a>
+        </div>
+
+        <div id="filter-bar" class="product-filters" aria-label="กรองสินค้าตามประเภท">
+          <button class="filter-button" type="button" data-category-filter="all" aria-pressed="true">ทั้งหมด</button>
+          <button class="filter-button" type="button" data-category-filter="Bathroom Care" aria-pressed="false">Bathroom Care</button>
+          <button class="filter-button" type="button" data-category-filter="Wall Care" aria-pressed="false">Wall Care</button>
+          <button class="filter-button" type="button" data-category-filter="Furniture Care" aria-pressed="false">Furniture Care</button>
+          <button class="filter-button" type="button" data-category-filter="Home Care" aria-pressed="false">Home Care</button>
+          <button class="filter-button" type="button" data-category-filter="Specialist" aria-pressed="false">Specialist</button>
+        </div>
+
+        <p id="productsStatus" class="notice" role="status" aria-live="polite" hidden></p>
+
+        <!-- script.js จะสร้างการ์ดสินค้าจาก products.json ภายใน element นี้ -->
+        <div id="product-list" class="product-grid" data-products-grid aria-live="polite"></div>
+
+        <div class="notice product-surface-notice">
+          <p>ข้อควรทราบ: พื้นผิวที่เหมาะสมต้องเป็นไปตามผลทดสอบของสูตรและคำแนะนำบนฉลาก โปรดตรวจสอบข้อมูลก่อนใช้งานทุกครั้ง</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cream">
+      <div class="container text-center">
+        <span class="eyebrow">Need help choosing?</span>
+        <h2 class="section-title">เริ่มจากพื้นที่ที่ต้องการดูแล</h2>
+        <p class="section-description">เลือกประเภทผลิตภัณฑ์ที่ตรงกับบริเวณใช้งาน และตรวจสอบรายละเอียดของแต่ละสูตรก่อนสั่งซื้อ</p>
+        <a class="btn btn-primary mt-4" href="index.html#product-types">ดูประเภทผลิตภัณฑ์</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="site-logo" href="index.html">MOLD<span>MATE</span></a>
+          <p class="mt-4">ผลิตภัณฑ์ดูแลปัญหาเชื้อราในบ้าน เลือกสูตรตามพื้นที่และชนิดพื้นผิวที่รองรับ</p>
+        </div>
+        <div>
+          <h2 class="footer-heading">เมนู</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="product.html">สินค้าทั้งหมด</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="footer-heading">ก่อนใช้งาน</h2>
+          <p class="text-small">อ่านฉลากและข้อควรระวัง ตรวจสอบความเหมาะสมกับพื้นผิว และปฏิบัติตามคำแนะนำของผลิตภัณฑ์</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© MOLDMATE</span>
+        <span>Home care, chosen with care.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

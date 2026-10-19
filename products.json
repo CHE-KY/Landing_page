@@ -1,0 +1,142 @@
+[
+  {
+    "id": "bathroom-care-trial",
+    "name": "MOLDMATE Bathroom Care Trial",
+    "category": "Bathroom Care",
+    "size": "100 ml",
+    "price": 59,
+    "image": "images/bathroom.jpg",
+    "description": "ขนาดทดลองสำหรับจัดการคราบเชื้อราบนกระเบื้อง ยาแนว และพื้นผิวห้องน้ำที่สูตรรองรับ",
+    "surfaces": [
+      "กระเบื้อง: รอยืนยันผลทดสอบ",
+      "ยาแนว: รอยืนยันผลทดสอบ",
+      "พื้นผิวห้องน้ำอื่น ๆ: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "trial"
+  },
+  {
+    "id": "wall-care-trial",
+    "name": "MOLDMATE Wall Care Trial",
+    "category": "Wall Care",
+    "size": "100 ml",
+    "price": 59,
+    "image": "images/wall.jpg",
+    "description": "ขนาดทดลองสำหรับจัดการคราบเชื้อราบนผนังและพื้นผิวที่สูตรรองรับ",
+    "surfaces": [
+      "ผนัง: รอยืนยันผลทดสอบ",
+      "พื้นผิวอื่นที่เกี่ยวข้อง: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "trial"
+  },
+  {
+    "id": "furniture-care-trial",
+    "name": "MOLDMATE Furniture Care Trial",
+    "category": "Furniture Care",
+    "size": "100 ml",
+    "price": 59,
+    "image": "images/furniture.jpg",
+    "description": "ขนาดทดลองสำหรับจัดการคราบเชื้อราบนเฟอร์นิเจอร์และวัสดุที่สูตรรองรับ",
+    "surfaces": [
+      "เฟอร์นิเจอร์: รอยืนยันผลทดสอบ",
+      "วัสดุเฟอร์นิเจอร์แต่ละชนิด: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "trial"
+  },
+  {
+    "id": "home-care-trial",
+    "name": "MOLDMATE Home Care Trial",
+    "category": "Home Care",
+    "size": "100 ml",
+    "price": 59,
+    "image": "images/home.jpg",
+    "description": "ขนาดทดลองสำหรับจัดการปัญหาคราบเชื้อราในบริเวณบ้านที่ระบุบนฉลาก",
+    "surfaces": [
+      "พื้นผิวภายในบ้านตามฉลาก: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "trial"
+  },
+  {
+    "id": "bathroom-care-standard",
+    "name": "MOLDMATE Bathroom Care Standard",
+    "category": "Bathroom Care",
+    "size": "500 ml",
+    "price": 159,
+    "image": "images/bathroom.jpg",
+    "description": "ขนาดมาตรฐานสำหรับดูแลคราบเชื้อราบนกระเบื้อง ยาแนว และพื้นผิวห้องน้ำที่สูตรรองรับ",
+    "surfaces": [
+      "กระเบื้อง: รอยืนยันผลทดสอบ",
+      "ยาแนว: รอยืนยันผลทดสอบ",
+      "พื้นผิวห้องน้ำอื่น ๆ: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "standard"
+  },
+  {
+    "id": "wall-care-standard",
+    "name": "MOLDMATE Wall Care Standard",
+    "category": "Wall Care",
+    "size": "500 ml",
+    "price": 159,
+    "image": "images/wall.jpg",
+    "description": "ขนาดมาตรฐานสำหรับดูแลคราบเชื้อราบนผนังและพื้นผิวที่สูตรรองรับ",
+    "surfaces": [
+      "ผนัง: รอยืนยันผลทดสอบ",
+      "พื้นผิวอื่นที่เกี่ยวข้อง: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "standard"
+  },
+  {
+    "id": "furniture-care-standard",
+    "name": "MOLDMATE Furniture Care Standard",
+    "category": "Furniture Care",
+    "size": "500 ml",
+    "price": 159,
+    "image": "images/furniture.jpg",
+    "description": "ขนาดมาตรฐานสำหรับดูแลคราบเชื้อราบนเฟอร์นิเจอร์และวัสดุที่สูตรรองรับ",
+    "surfaces": [
+      "เฟอร์นิเจอร์: รอยืนยันผลทดสอบ",
+      "วัสดุเฟอร์นิเจอร์แต่ละชนิด: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "standard"
+  },
+  {
+    "id": "home-care-standard",
+    "name": "MOLDMATE Home Care Standard",
+    "category": "Home Care",
+    "size": "500 ml",
+    "price": 159,
+    "image": "images/home.jpg",
+    "description": "ขนาดมาตรฐานสำหรับดูแลคราบเชื้อราในบริเวณบ้านที่ระบุบนฉลาก",
+    "surfaces": [
+      "พื้นผิวภายในบ้านตามฉลาก: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "standard"
+  },
+  {
+    "id": "grout-care-specialist",
+    "name": "MOLDMATE Grout Care Specialist",
+    "category": "Grout Care",
+    "size": "250 ml",
+    "price": 129,
+    "image": "images/grout.jpg",
+    "description": "ผลิตภัณฑ์เฉพาะทางสำหรับคราบเชื้อราบริเวณร่องยาแนว ใช้กับวัสดุที่สูตรผ่านการทดสอบเท่านั้น",
+    "surfaces": [
+      "ร่องยาแนว: รอยืนยันผลทดสอบ",
+      "วัสดุยาแนวแต่ละชนิด: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "specialist"
+  },
+  {
+    "id": "painted-surface-specialist",
+    "name": "MOLDMATE Painted Surface Specialist",
+    "category": "Painted Surface",
+    "size": "250 ml",
+    "price": 129,
+    "image": "images/painted-surface.jpg",
+    "description": "ผลิตภัณฑ์เฉพาะทางสำหรับคราบเชื้อราบนพื้นผิวทาสีที่สูตรรองรับ โดยต้องตรวจสอบผลกระทบต่อสีและสภาพพื้นผิว",
+    "surfaces": [
+      "พื้นผิวทาสี: รอยืนยันผลทดสอบ",
+      "ชนิดสีและวัสดุเคลือบแต่ละประเภท: รอยืนยันผลทดสอบ"
+    ],
+    "usageType": "specialist"
+  }
+]
