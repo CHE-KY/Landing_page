@@ -18,7 +18,7 @@
         <a href="product.html" aria-current="page">สินค้าทั้งหมด</a>
       </nav>
       <div class="header-actions">
-        <a class="btn btn-secondary" href="index.html">กลับหน้าแรก</a>
+        <a class="btn btn-secondary" href="order.html">ตะกร้า (<span id="cartCount">0</span>)</a>
       </div>
     </div>
   </header>
@@ -45,6 +45,7 @@
           <a class="text-small" href="product.html">แสดงสินค้าทั้งหมด</a>
         </div>
 
+        <p id="cartNotice" class="notice" role="status" aria-live="polite" hidden></p>
         <div id="filter-bar" class="product-filters" aria-label="กรองสินค้าตามประเภท">
           <button class="filter-button" type="button" data-category-filter="all" aria-pressed="true">ทั้งหมด</button>
           <button class="filter-button" type="button" data-category-filter="Bathroom Care" aria-pressed="false">Bathroom Care</button>
